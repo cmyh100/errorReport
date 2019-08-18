@@ -1,0 +1,41 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/report",
+    "regexp": "/^\\/report(?:\\/(?=$))?$/",
+    "stack": [
+      "E:\\BAT进阶\\预习\\showcase4\\app\\controller\\report.js#ReportController.index()"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/click",
+    "regexp": "/^\\/click(?:\\/(?=$))?$/",
+    "stack": [
+      "E:\\BAT进阶\\预习\\showcase4\\app\\controller\\click.js#ReportController.index()"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/__loader_trace__",
+    "regexp": "/^\\/__loader_trace__(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous"
+    ]
+  }
+]

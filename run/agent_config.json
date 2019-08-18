@@ -1,39 +1,10 @@
 {
   "config": {
-    "onerror": {
-      "errorPageUrl": "",
-      "appErrorFilter": null
-    },
     "session": {
       "maxAge": 86400000,
       "key": "EGG_SESS",
       "httpOnly": true,
       "encrypt": true
-    },
-    "i18n": {
-      "defaultLocale": "en_US",
-      "dirs": [],
-      "queryField": "locale",
-      "cookieField": "locale",
-      "cookieMaxAge": "1y"
-    },
-    "watcher": {
-      "type": "development",
-      "eventSources": {
-        "default": "/Users/miniflycn/github/showcase4/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/miniflycn/github/showcase4/node_modules/egg-watcher/lib/event-sources/development"
-      }
-    },
-    "multipart": {
-      "autoFields": false,
-      "defaultCharset": "utf8",
-      "fieldNameSize": 100,
-      "fieldSize": "100kb",
-      "fields": 10,
-      "fileSize": "10mb",
-      "files": 10,
-      "fileExtensions": [],
-      "whitelist": null
     },
     "security": {
       "domainWhiteList": [],
@@ -41,13 +12,15 @@
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
         "enable": true,
-        "useSession": false,
         "ignoreJSON": false,
+        "type": "ctoken",
+        "useSession": false,
         "cookieName": "csrfToken",
         "sessionName": "csrfToken",
         "headerName": "x-csrf-token",
         "bodyName": "_csrf",
-        "queryName": "_csrf"
+        "queryName": "_csrf",
+        "refererWhiteList": []
       },
       "xframe": {
         "enable": true,
@@ -77,32 +50,14 @@
       "csp": {
         "enable": false,
         "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "checkAddress": null
       }
     },
     "helper": {
       "shtml": {}
-    },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": true,
-      "reloadOnDebug": true
-    },
-    "logrotator": {
-      "filesRotateByHour": null,
-      "filesRotateBySize": null,
-      "maxFileSize": 52428800,
-      "maxFiles": 10,
-      "rotateDuration": 60000,
-      "maxDays": 31
-    },
-    "static": {
-      "prefix": "/public/",
-      "dir": "/Users/miniflycn/github/showcase4/app/public",
-      "dynamic": true,
-      "preload": false,
-      "buffer": false,
-      "maxFiles": 1000
     },
     "jsonp": {
       "limit": 50,
@@ -112,8 +67,60 @@
       ],
       "csrf": false
     },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieMaxAge": "1y"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+      }
+    },
+    "multipart": {
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": "100kb",
+      "fields": 10,
+      "fileSize": "10mb",
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "E:\\BAT进阶\\预习\\showcase4\\app\\public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000
+    },
     "view": {
-      "root": "/Users/miniflycn/github/showcase4/app/view",
+      "root": "E:\\BAT进阶\\预习\\showcase4\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -123,9 +130,10 @@
     "name": "showcase4",
     "keys": "<String len: 3>",
     "proxy": false,
+    "maxProxyCount": 0,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
-    "hostHeaders": "x-forwarded-host",
+    "hostHeaders": "",
     "pkg": {
       "name": "showcase4",
       "version": "0.0.1",
@@ -155,9 +163,9 @@
         "egg-static": "^1.4.1"
       }
     },
-    "baseDir": "/Users/miniflycn/github/showcase4",
-    "HOME": "/Users/miniflycn",
-    "rundir": "/Users/miniflycn/github/showcase4/run",
+    "baseDir": "E:\\BAT进阶\\预习\\showcase4",
+    "HOME": "C:\\Users\\cmyh",
+    "rundir": "E:\\BAT进阶\\预习\\showcase4\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -187,7 +195,7 @@
       }
     },
     "logger": {
-      "dir": "/Users/miniflycn/github/showcase4/logs/showcase4",
+      "dir": "E:\\BAT进阶\\预习\\showcase4\\logs\\showcase4",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -202,6 +210,7 @@
       "coreLogger": {
         "consoleLevel": "WARN"
       },
+      "allowDebugAtProd": false,
       "type": "agent"
     },
     "httpclient": {
@@ -239,28 +248,15 @@
         "hostname": ""
       }
     },
-    "coreMiddlewares": [
-      "meta",
-      "siteFile",
-      "notfound",
-      "bodyParser",
-      "overrideMethod"
-    ],
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
-    "appMiddleware": []
+    "appMiddleware": "~config~appMiddlewares"
   },
   "plugins": {
-    "onerror": {
-      "enable": true,
-      "package": "egg-onerror",
-      "name": "onerror",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "/Users/miniflycn/github/showcase4/node_modules/egg/config/plugin.js",
-      "path": "/Users/miniflycn/github/showcase4/node_modules/egg-onerror",
-      "version": "1.5.0"
-    },
     "session": {
       "enable": true,
       "package": "egg-session",
@@ -268,42 +264,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/miniflycn/github/showcase4/node_modules/egg/config/plugin.js",
-      "path": "/Users/miniflycn/github/showcase4/node_modules/egg-session",
-      "version": "2.1.1"
-    },
-    "i18n": {
-      "enable": true,
-      "package": "egg-i18n",
-      "name": "i18n",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "/Users/miniflycn/github/showcase4/node_modules/egg/config/plugin.js",
-      "path": "/Users/miniflycn/github/showcase4/node_modules/egg-i18n",
-      "version": "1.1.1"
-    },
-    "watcher": {
-      "enable": true,
-      "package": "egg-watcher",
-      "name": "watcher",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "/Users/miniflycn/github/showcase4/node_modules/egg/config/plugin.js",
-      "path": "/Users/miniflycn/github/showcase4/node_modules/egg-watcher",
-      "version": "2.1.3"
-    },
-    "multipart": {
-      "enable": true,
-      "package": "egg-multipart",
-      "name": "multipart",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "/Users/miniflycn/github/showcase4/node_modules/egg/config/plugin.js",
-      "path": "/Users/miniflycn/github/showcase4/node_modules/egg-multipart",
-      "version": "1.5.0"
+      "from": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-session",
+      "version": "2.2.0"
     },
     "security": {
       "enable": true,
@@ -314,9 +277,68 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/miniflycn/github/showcase4/node_modules/egg/config/plugin.js",
-      "path": "/Users/miniflycn/github/showcase4/node_modules/egg-security",
-      "version": "1.12.1"
+      "from": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security",
+      "version": "1.14.0"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-jsonp",
+      "version": "1.2.2"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-onerror",
+      "version": "1.6.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-i18n",
+      "version": "1.2.0"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-watcher",
+      "version": "2.2.0"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-multipart",
+      "version": "1.5.1"
     },
     "development": {
       "enable": true,
@@ -329,9 +351,9 @@
       "env": [
         "local"
       ],
-      "from": "/Users/miniflycn/github/showcase4/node_modules/egg/config/plugin.js",
-      "path": "/Users/miniflycn/github/showcase4/node_modules/egg-development",
-      "version": "1.3.1"
+      "from": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-development",
+      "version": "1.4.2"
     },
     "schedule": {
       "enable": true,
@@ -340,9 +362,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/miniflycn/github/showcase4/node_modules/egg/config/plugin.js",
-      "path": "/Users/miniflycn/github/showcase4/node_modules/egg-schedule",
-      "version": "2.4.1"
+      "from": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-schedule",
+      "version": "2.6.0"
     },
     "logrotator": {
       "enable": true,
@@ -353,9 +375,9 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/miniflycn/github/showcase4/node_modules/egg/config/plugin.js",
-      "path": "/Users/miniflycn/github/showcase4/node_modules/egg-logrotator",
-      "version": "2.2.3"
+      "from": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-logrotator",
+      "version": "2.3.3"
     },
     "static": {
       "enable": true,
@@ -364,22 +386,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/miniflycn/github/showcase4/node_modules/egg/config/plugin.js",
-      "path": "/Users/miniflycn/github/showcase4/node_modules/egg-static",
-      "version": "1.4.1"
-    },
-    "jsonp": {
-      "enable": true,
-      "package": "egg-jsonp",
-      "name": "jsonp",
-      "dependencies": [],
-      "optionalDependencies": [
-        "security"
-      ],
-      "env": [],
-      "from": "/Users/miniflycn/github/showcase4/node_modules/egg/config/plugin.js",
-      "path": "/Users/miniflycn/github/showcase4/node_modules/egg-jsonp",
-      "version": "1.1.2"
+      "from": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-static",
+      "version": "1.5.1"
     },
     "view": {
       "enable": true,
@@ -388,9 +397,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/miniflycn/github/showcase4/node_modules/egg/config/plugin.js",
-      "path": "/Users/miniflycn/github/showcase4/node_modules/egg-view",
-      "version": "1.1.2"
+      "from": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-view",
+      "version": "1.2.0"
     }
   }
 }

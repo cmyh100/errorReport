@@ -1,222 +1,235 @@
 {
-  "keys": "/Users/miniflycn/github/showcase4/config/config.default.js",
-  "static": "/Users/miniflycn/github/showcase4/config/config.default.js",
-  "onerror": {
-    "errorPageUrl": "/Users/miniflycn/github/showcase4/node_modules/egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Users/miniflycn/github/showcase4/node_modules/egg-onerror/config/config.default.js"
-  },
+  "keys": "E:\\BAT进阶\\预习\\showcase4\\config\\config.default.js",
+  "static": "E:\\BAT进阶\\预习\\showcase4\\config\\config.default.js",
   "session": {
-    "maxAge": "/Users/miniflycn/github/showcase4/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/miniflycn/github/showcase4/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/miniflycn/github/showcase4/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/miniflycn/github/showcase4/node_modules/egg-session/config/config.default.js"
-  },
-  "i18n": {
-    "defaultLocale": "/Users/miniflycn/github/showcase4/node_modules/egg-i18n/config/config.default.js",
-    "dirs": "/Users/miniflycn/github/showcase4/node_modules/egg-i18n/config/config.default.js",
-    "queryField": "/Users/miniflycn/github/showcase4/node_modules/egg-i18n/config/config.default.js",
-    "cookieField": "/Users/miniflycn/github/showcase4/node_modules/egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Users/miniflycn/github/showcase4/node_modules/egg-i18n/config/config.default.js"
-  },
-  "watcher": {
-    "type": "/Users/miniflycn/github/showcase4/node_modules/egg-watcher/config/config.local.js",
-    "eventSources": {
-      "default": "/Users/miniflycn/github/showcase4/node_modules/egg-watcher/config/config.default.js",
-      "development": "/Users/miniflycn/github/showcase4/node_modules/egg-watcher/config/config.default.js"
-    }
-  },
-  "multipart": {
-    "autoFields": "/Users/miniflycn/github/showcase4/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/miniflycn/github/showcase4/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/miniflycn/github/showcase4/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/miniflycn/github/showcase4/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Users/miniflycn/github/showcase4/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/Users/miniflycn/github/showcase4/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Users/miniflycn/github/showcase4/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/miniflycn/github/showcase4/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Users/miniflycn/github/showcase4/node_modules/egg-multipart/config/config.default.js"
+    "maxAge": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-session\\config\\config.default.js"
   },
   "security": {
-    "domainWhiteList": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js",
+    "domainWhiteList": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js",
-      "useSession": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js",
-      "ignoreJSON": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js",
-      "cookieName": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js",
-      "sessionName": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js",
-      "headerName": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js",
-      "bodyName": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js",
-      "queryName": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js"
+      "enable": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js",
+      "type": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xframe": {
-      "enable": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js"
+      "enable": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.local.js",
-      "maxAge": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js",
-      "includeSubdomains": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js"
+      "enable": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js"
+      "enable": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js"
+      "enable": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js"
+      "enable": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js"
+      "enable": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js"
+      "enable": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js",
-      "policy": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js"
+      "enable": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
   "helper": {
-    "shtml": "/Users/miniflycn/github/showcase4/node_modules/egg-security/config/config.default.js"
-  },
-  "development": {
-    "watchDirs": "/Users/miniflycn/github/showcase4/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/miniflycn/github/showcase4/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/Users/miniflycn/github/showcase4/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/miniflycn/github/showcase4/node_modules/egg-development/config/config.default.js"
-  },
-  "logrotator": {
-    "filesRotateByHour": "/Users/miniflycn/github/showcase4/node_modules/egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/Users/miniflycn/github/showcase4/node_modules/egg-logrotator/config/config.default.js",
-    "maxFileSize": "/Users/miniflycn/github/showcase4/node_modules/egg-logrotator/config/config.default.js",
-    "maxFiles": "/Users/miniflycn/github/showcase4/node_modules/egg-logrotator/config/config.default.js",
-    "rotateDuration": "/Users/miniflycn/github/showcase4/node_modules/egg-logrotator/config/config.default.js",
-    "maxDays": "/Users/miniflycn/github/showcase4/node_modules/egg-logrotator/config/config.default.js"
+    "shtml": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "/Users/miniflycn/github/showcase4/node_modules/egg-jsonp/config/config.default.js",
-    "callback": "/Users/miniflycn/github/showcase4/node_modules/egg-jsonp/config/config.default.js",
-    "csrf": "/Users/miniflycn/github/showcase4/node_modules/egg-jsonp/config/config.default.js"
+    "limit": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
-  "view": {
-    "root": "/Users/miniflycn/github/showcase4/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/miniflycn/github/showcase4/node_modules/egg-view/config/config.local.js",
-    "defaultExtension": "/Users/miniflycn/github/showcase4/node_modules/egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/miniflycn/github/showcase4/node_modules/egg-view/config/config.default.js",
-    "mapping": "/Users/miniflycn/github/showcase4/node_modules/egg-view/config/config.default.js"
+  "onerror": {
+    "errorPageUrl": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-onerror\\config\\config.default.js"
   },
-  "env": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-  "name": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-  "proxy": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-  "protocolHeaders": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-  "ipHeaders": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-  "hostHeaders": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-  "pkg": {
-    "name": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "version": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "description": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "main": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "scripts": {
-      "test": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-      "dev": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js"
-    },
-    "repository": {
-      "type": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-      "url": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js"
-    },
-    "keywords": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "author": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "license": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "bugs": {
-      "url": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js"
-    },
-    "homepage": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "devDependencies": {
-      "egg": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-      "egg-bin": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-      "egg-logger": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-      "egg-static": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js"
+  "i18n": {
+    "defaultLocale": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
-  "baseDir": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-  "HOME": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-  "rundir": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
+  "multipart": {
+    "autoFields": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-multipart\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "view": {
+    "root": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+  "name": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "version": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "description": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "main": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "test": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+      "dev": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+      "url": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js"
+    },
+    "keywords": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "author": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "license": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "bugs": {
+      "url": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js"
+    },
+    "homepage": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "devDependencies": {
+      "egg": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+      "egg-logger": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+      "egg-static": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js"
+    "ignore": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "notFound": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "sitefile": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "middlewares": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "httpClient": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js"
+    "bodyparser": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js"
+    "pageUrl": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js"
+    "/favicon.ico": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "formLimit": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "jsonLimit": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "strict": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
+    "enable": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "strict": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-      "depth": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-      "parameterLimit": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js"
+      "arrayLimit": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+      "depth": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "logger": {
-    "dir": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "env": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "level": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "consoleLevel": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "outputJSON": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "buffer": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "appLogName": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "coreLogName": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "agentLogName": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "errorLogName": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
+    "dir": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "env": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "level": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.local.js"
-    }
+      "consoleLevel": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxAge": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
+    "enableDNSCache": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js"
+      "timeout": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-      "freeSocketKeepAliveTimeout": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js"
+      "keepAlive": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-      "freeSocketKeepAliveTimeout": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js"
+      "keepAlive": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js"
     }
   },
-  "coreMiddleware": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-  "workerStartTimeout": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
+  "coreMiddleware": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-      "port": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js",
-      "hostname": "/Users/miniflycn/github/showcase4/node_modules/egg/config/config.default.js"
+      "path": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+      "port": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js"
     }
+  },
+  "clusterClient": {
+    "maxWaitTime": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "E:\\BAT进阶\\预习\\showcase4\\node_modules\\egg\\config\\config.default.js"
   }
 }
